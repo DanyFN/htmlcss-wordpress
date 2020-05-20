@@ -1,0 +1,127 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('background.png');
+}
+
+/*HEADER  */
+
+.titolo{
+
+  width: 80%;
+  height: 400px;
+  margin:auto;
+  margin-top: 20px;
+  border: 15px solid white;
+  background-image: url('bosco.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#natural{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 7px solid white;
+  transform: translate(-50%, -50%);
+}
+
+#natural h1{
+  color: white;
+  font-family: cursive;
+  font-size: 50px;
+  padding: 20px 40px;
+}
+
+/* NAVBAR */
+
+.navbar{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(52, 37, 29, 1);
+  height: 60px;
+}
+
+.sezioni{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.sezioni ul li{
+  display: inline;
+  line-height: 60px;
+  padding: 0px 50px;
+  color: white;
+  border-right: 1px solid white;
+  /* font-weight: bold; */
+
+}
+
+.sezioni ul li:nth-last-child(1){
+  border-right: none;
+}
+
+
+/* COLONNE */
+
+main{
+  margin-top: 20px;
+}
+.contenitore_colonne{
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+
+.contenitore_colonne:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore_colonne ul{
+  list-style-type: none;
+}
+
+.colonna{
+  width: 25%;
+  background-color: white;
+  /* border: 1px solid black; */
+  float: left;
+}
+
+.seconda_colonna{
+  width: 25%;
+  background-color: white;
+  /* border: 1px solid black; */
+  float: right;
+  margin-top: 20px;
+}
+
+#colonna_centrale, .colonna,.seconda_colonna, .colonna ul li{
+  padding: 20px 30px;
+}
+
+#colonna_centrale{
+  float:left;
+  width: 46%;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+/* classe d'appoggio */
+
+.margin_left{
+  margin-left: 2%;
+
+}
+
+.margin_right{
+  margin-right: 2%;
+}
+
+/* ------------------------------- */
